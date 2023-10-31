@@ -1,5 +1,5 @@
 # Thanks for considering me in your job applicant interviews. 🤍🙏
-
+![Mabna](logo.png)
 
 ## Setup 
 copy `env.example` to `.env` and set your postgreSQL connection data <br><br>
@@ -11,7 +11,7 @@ run
 ```go
 go run ./cmd/main.go
 ```
-## Check out wit curl 
+## Check out with curl 
 ```go
 curl -X POST -H "Content-Type: application/json" -d '{"Id":1,
   "instrumentId": 1,
