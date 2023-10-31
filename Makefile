@@ -56,3 +56,6 @@ check:
 		--enable=gocritic \
 		--enable=gci \
 		--enable=lll
+
+unit_test:
+	go test ./... -v
